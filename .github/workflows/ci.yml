@@ -1,7 +1,7 @@
 name: ci-test
 
 on:
-  wokrflow_dispatch:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
